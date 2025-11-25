@@ -1,0 +1,14 @@
+body{
+    background-color: #101014;
+}
+
+.button {
+        background-color: #3A3A3E;
+        padding: 10px 15px;
+        border-radius: 6px;
+        color: white;
+    }
+
+    .button:hover {
+        background-color: #5d5d63;
+    }

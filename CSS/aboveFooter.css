@@ -1,0 +1,34 @@
+.aboveFooter .salesSpecials {
+    color: white;
+}
+
+.aboveFooter .salesSpecials p {
+    color: #A9A9A9;
+    font-size: 12px;
+}
+
+.aboveFooter .salesSpecials p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+.aboveFooter .salesSpecials a img {
+    margin-bottom: 20px;
+}
+
+.aboveFooter .salesSpecials img {
+    display: flex;
+    border-radius: 6px;
+}
+
+.aboveFooter .container .bottomWriting {
+    color: #ffffff;
+    font-size: 12px;
+    border-top: 1px solid #343437;
+    margin-top: 45px;
+}
+
+.aboveFooter .container .bottomWriting p {
+    margin-top: 20px;
+}
