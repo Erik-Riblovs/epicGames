@@ -5,9 +5,6 @@
 .aboveFooter .salesSpecials p {
     color: #A9A9A9;
     font-size: 12px;
-}
-
-.aboveFooter .salesSpecials p {
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 12px;
@@ -15,10 +12,25 @@
 
 .aboveFooter .salesSpecials a img {
     margin-bottom: 20px;
+        display: flex;
+    border-radius: 6px;
 }
 
-.aboveFooter .salesSpecials img {
-    display: flex;
+.aboveFooter .salesSpecials1 {
+    color: white;
+}
+
+.aboveFooter .salesSpecials1 p {
+    color: #A9A9A9;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+
+.aboveFooter .salesSpecials1 a img {
+    margin-bottom: 20px;
+        display: flex;
     border-radius: 6px;
 }
 
