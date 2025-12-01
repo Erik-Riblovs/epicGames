@@ -1,0 +1,36 @@
+.GT5 .box {
+    color: white;
+}
+
+.GT5 .box p {
+    color: #A9A9A9;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.GT5 .box a img {
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 6px;
+}
+
+.GT5 .box p {
+    color: #A9A9A9;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.GT5 .box a img {
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 6px;
+}
+
+.GT5 .container .box .bottom{
+    display: flex;
+    align-items: end;
+    color: white;
+    font-size: 12px
+}

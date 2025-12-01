@@ -1,20 +1,73 @@
-.tmt .games{
-    display: flex;
+.tmt .container h3 {
     color: white;
 }
 
+.tmt .available {
+    color: #A9A9A9;
+}
+
+.tmt .games {
+    display: flex;
+    color: white;
+    font-size: 8px;
+    border-left: 1px solid #343437;
+}
+
+.tmt .games h3 {
+    display: flex;
+    color: white;
+    font-size: 11px;
+}
+
 .gamesButton {
+    display: flex;
+    align-items: center;
+    gap: 22px;
     background-image: url(//Images/Images/EGS_EASPORTSFC26StandardEdition_EACANADA_S2_1200x1600-effee280c00b9890a0c5249d4b0e5c97.jpg);
-        background-color: #3A3A3E;
-        padding: 10px 15px;
-        border-radius: 6px;
-        color: white;
-    }
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+}
 
-    .tmt img{
-        height: 50px;
-    }
+.gamesButton:hover {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background-image: url(//Images/Images/EGS_EASPORTSFC26StandardEdition_EACANADA_S2_1200x1600-effee280c00b9890a0c5249d4b0e5c97.jpg);
+    background-color: #202024;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+}
 
-    .tmt .content {
-        display: flex;
-    }
+.tmt img {
+    height: 90px;
+    border-radius: 3px;
+}
+
+.tmt .games .seperate {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #343437;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+
+.tmt .games .seperate i {
+    color: gold;
+}
+
+.tmt .games .label-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tmt .games .label-row .comingsoon {
+    color: #A9A9A9;
+}
