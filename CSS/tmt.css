@@ -1,0 +1,20 @@
+.tmt .games{
+    display: flex;
+    color: white;
+}
+
+.gamesButton {
+    background-image: url(//Images/Images/EGS_EASPORTSFC26StandardEdition_EACANADA_S2_1200x1600-effee280c00b9890a0c5249d4b0e5c97.jpg);
+        background-color: #3A3A3E;
+        padding: 10px 15px;
+        border-radius: 6px;
+        color: white;
+    }
+
+    .tmt img{
+        height: 50px;
+    }
+
+    .tmt .content {
+        display: flex;
+    }
