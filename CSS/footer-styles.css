@@ -1,0 +1,58 @@
+.footer{
+    background-color: #18181C;
+}
+.footer .footerLinks ul li {
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.footer .footerLinks ul li:hover {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer .container02 .footerLinks h3 {
+    margin-bottom: 20px;
+}
+
+.footer .container02 .footerLinks li a {
+    margin-bottom: 20px;
+}
+
+.footer .socialLinks svg{
+    fill: white;
+    width: 24px; 
+    height: 24px;
+}
+
+.footer .socials svg {
+    fill: #A9A9A9;
+    width: 24px; 
+    height: 24px;
+}
+
+.footer .socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .socialLinks a svg {
+    width: 24px;
+    height: 24px;
+}
+
+.footer .socials svg:hover {
+    fill: gray;
+    cursor: pointer;
+}
+
+.footer .socialLinks {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}

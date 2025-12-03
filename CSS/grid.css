@@ -10,6 +10,18 @@
     grid-row: auto;
 }
 
+.container02 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 90%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    grid-row: auto;
+}
+
 .container-no-padding {
     width: 1200px;
     margin: auto;
