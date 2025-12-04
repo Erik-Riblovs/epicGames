@@ -1,9 +1,15 @@
-.footer{
+.footer {
     background-color: #18181C;
+    padding-bottom: 60px;
 }
+
 .footer .footerLinks ul li {
     color: #A9A9A9;
     font-size: 14px;
+}
+
+.footer .footerLinks h3 {
+    font-size: 20px;
 }
 
 .footer .footerLinks ul li:hover {
@@ -19,15 +25,15 @@
     margin-bottom: 20px;
 }
 
-.footer .socialLinks svg{
-    fill: white;
-    width: 24px; 
+.footer .socials svg {
+    fill: #A9A9A9;
+    width: 24px;
     height: 24px;
 }
 
-.footer .socials svg {
-    fill: #A9A9A9;
-    width: 24px; 
+.footer .socials svg:hover {
+    fill: #ffffff;
+    width: 24px;
     height: 24px;
 }
 
@@ -38,21 +44,72 @@
 }
 
 .footer .socialLinks a svg {
-    width: 24px;
-    height: 24px;
-}
-
-.footer .socials svg:hover {
-    fill: gray;
-    cursor: pointer;
+    fill: white;
+    width: 50px;
+    height: 50px;
 }
 
 .footer .socialLinks {
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-between; 
-    max-width: 1200px;
+    justify-content: space-between;
     margin: 0 auto;
-    padding: 20px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #343437;
+}
+
+.footer .copyright {
+    color: #A9A9A9;
+    font-size: 12px;
+    max-width: 748px;
+}
+
+.footer .bottomSecFoot ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.footer .bottomSecFoot ul li:hover {
+    color: white;
+
+}
+
+.footer .bottomSecFoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 30px;
+    border-top: 1px solid #343437;
+}
+
+.footerbutton {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    background-color: #3A3A3E;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 100px;
+}
+
+.footerbutton:hover {
+    background-color: #5d5d63;
+}
+
+.footer .bottomSecFoot .buttonFooter svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
 }
