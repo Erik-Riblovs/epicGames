@@ -1,15 +1,23 @@
-body{
+body {
     background-color: #101014;
     color: white;
 }
 
 .button {
-        background-color: #3A3A3E;
-        padding: 10px 15px;
-        border-radius: 6px;
-        color: white;
-    }
+    background-color: #3A3A3E;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+}
 
-    .button:hover {
-        background-color: #5d5d63;
-    }
+.button:hover {
+    background-color: #5d5d63;
+}
+
+.trial {
+    font-size: 12px;
+    background-color: #3A3A3E;
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+}

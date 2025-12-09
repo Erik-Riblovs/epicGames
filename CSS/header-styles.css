@@ -1,0 +1,59 @@
+header {
+    background-color: #121216;
+    padding: 15px 30px;
+}
+
+.headerrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.headerleft img {
+    width: 30px;
+    height: 32px;
+}
+
+.headerleft .storetext {
+    font-size: large;
+    font-weight: bold;
+}
+
+.headerleft .headerlink:hover {
+    color: #A9A9A9;
+}
+
+.downloadbutton {
+    background-color: #26BBFF;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.downloadbutton:hover {
+    background-color: #55c9ff;
+}
+
+.buttonsign {
+    background-color: #3A3A3E;
+    padding: 5px 15px;
+    border-radius: 6px;
+    color: white;
+}
+
+.buttonsign:hover {
+    background-color: #5d5d63;
+}
+
+.headerright{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

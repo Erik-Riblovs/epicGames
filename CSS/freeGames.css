@@ -1,0 +1,43 @@
+.freegamesheader h2 {
+    color: white;
+}
+
+.freegamesheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.freegamesheader .button {
+    color: white;
+}
+
+.freegamecard a {
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.grey {
+    color: #A9A9A9;
+    font-size: 12px;
+}
+
+.freegamecard img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.buttonFree {
+    background-color: #202024;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid #69696B; 
+}
+
+.buttonFree:hover {
+    background-color: #5d5d6341;
+    border-color: #69696B; 
+}

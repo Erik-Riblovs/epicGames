@@ -22,6 +22,20 @@
     grid-row: auto;
 }
 
+.container03 {
+    padding: 40px;
+    padding-top: 30px;
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    grid-row: auto;
+    background-color: #202024;
+    border-radius: 15px;
+}
+
 .container-no-padding {
     width: 1200px;
     margin: auto;

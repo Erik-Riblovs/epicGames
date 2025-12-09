@@ -1,0 +1,70 @@
+.topNew title {
+    margin-left: 100px;
+}
+
+.topNew .box {
+    color: white;
+}
+
+.topNew .box a img {
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.topNew .box h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.topNew .box p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.topNew .container .box .bottom {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+.sale-info {
+    display: flex;
+    align-items: center;
+}
+
+.sale-discount {
+    margin-right: 5px;
+    background-color: #26BBFF;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    color: black;
+}
+
+.topNew .box .bottom .sale-old-price {
+    color: #A9A9A9;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.topNew .box .bottom .sale-discount {
+    color: #000000;
+
+}
+
+.topNew .box a p {
+    color: #A9A9A9;
+}
+
+.topNew .detroit img {
+    background-color: #202024;
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
